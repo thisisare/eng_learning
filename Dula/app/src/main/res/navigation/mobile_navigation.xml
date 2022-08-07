@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_lessons">
+
+    <fragment
+        android:id="@+id/nav_lessons"
+        android:name="com.example.dula.ui.lessons.LessonsFragment"
+        android:label="@string/menu_lessons"
+        tools:layout="@layout/fragment_lessons" />
+
+    <fragment
+        android:id="@+id/nav_useful"
+        android:name="com.example.dula.ui.useful.UsefulFragment"
+        android:label="@string/menu_useful"
+        tools:layout="@layout/fragment_useful" />
+
+    <fragment
+        android:id="@+id/nav_repeat"
+        android:name="com.example.dula.ui.repeat.RepeatFragment"
+        android:label="@string/menu_repeat"
+        tools:layout="@layout/fragment_repeat" />
+
+    <fragment
+        android:id="@+id/nav_zoi"
+        android:name="com.example.dula.ui.zoi.ZoiFragment"
+        android:label="@string/menu_zoi"
+        tools:layout="@layout/fragment_zoi" />
+
+    <fragment
+        android:id="@+id/nav_podcasts"
+        android:name="com.example.dula.ui.podcasts.PodcastsFragment"
+        android:label="@string/menu_podcasts"
+        tools:layout="@layout/fragment_podcasts" />
+
+    <fragment
+        android:id="@+id/nav_songs"
+        android:name="com.example.dula.ui.songs.SongsFragment"
+        android:label="Английский по песням"
+        tools:layout="@layout/fragment_songs" />
+
+    <activity
+        android:id="@+id/nav_telegram"
+        app:action="android.intent.action.VIEW"
+        app:data="https://t.me/kardasher"/>
+
+    <fragment
+        android:id="@+id/nav_tiktok"
+        android:name="com.example.dula.ui.tiktok.TiktokFragment"
+        android:label="@string/menu_tiktok"
+        tools:layout="@layout/fragment_tiktok" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.dula.ui.feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+
+</navigation>

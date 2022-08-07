@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/turquoise"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Собери пары"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_collectp1"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/toolbar7"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="80dp"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_collectp2"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/toolbar7"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="202dp"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_collectp3"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/toolbar7"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_collectp4"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/toolbar7"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_collectp5"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/toolbar7"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_collectp6"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/toolbar7"
+
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_collectp7"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/toolbar7"
+            android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_collectp8"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/toolbar7"
+        android:text="воздушный шарррриаиавыыыыыыыыыыыыыыыыы"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btnhelp6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.0" />
+    <Button
+        android:id="@+id/btnhelp62"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:alpha="0.0" />
+
+
+</RelativeLayout>

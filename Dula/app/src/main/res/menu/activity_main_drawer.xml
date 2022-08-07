@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lessons"
+            android:icon="@drawable/ic_lessons"
+            android:title="@string/menu_lessons" />
+        <item
+            android:id="@+id/nav_useful"
+            android:icon="@drawable/ic_useful"
+            android:title="@string/menu_useful" />
+        <item
+            android:id="@+id/nav_repeat"
+            android:icon="@drawable/ic_repeat"
+            android:title="@string/menu_repeat" />
+        <item
+            android:id="@+id/nav_zoi"
+            android:icon="@drawable/ic_zoi_vikselstain"
+            android:title="@string/menu_zoi" />
+        <item
+            android:id="@+id/nav_podcasts"
+            android:icon="@drawable/ic_podcasts"
+            android:title="@string/menu_podcasts" />
+        <item
+            android:id="@+id/nav_songs"
+            android:icon="@drawable/ic_eng_music"
+            android:title="@string/menu_songs" />
+        <item
+            android:id="@+id/nav_tiktok"
+            android:icon="@drawable/ic_tiktok"
+            android:title="@string/menu_tiktok" />
+        <item
+            android:id="@+id/nav_telegram"
+            android:icon="@drawable/ic_telegram"
+            android:title="@string/menu_telegram" />
+    </group>
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/menu_feedback" >
+        </item>
+    </group>
+</menu>
+
+
+
+
+

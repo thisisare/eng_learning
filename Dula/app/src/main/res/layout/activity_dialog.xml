@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/relayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DialogActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbardialog"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/turquoise"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+        <Button
+            android:id="@+id/btndialog"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+    <ScrollView
+        android:id="@+id/svdialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/frameldi1"
+        android:layout_below="@+id/toolbardialog"
+        android:padding="8dp"
+        android:paddingTop="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+        <FrameLayout
+            android:id="@+id/frameldi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <Button
+                    android:id="@+id/bdi1"
+                    app:cornerRadius="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:backgroundTint="@color/greenish"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/bdi2"
+                    app:cornerRadius="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/greenish"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/bdi3"
+                    app:cornerRadius="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/greenish"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+
+</RelativeLayout>
